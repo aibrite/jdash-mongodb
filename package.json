@@ -1,0 +1,32 @@
+{
+    "name": "jdash-mongodb",
+    "version": "1.0.0",
+    "description": "JDash MongoDb provider",
+    "main": "./lib/index.js",
+    "types": "./lib/index.d.ts",
+    "scripts": {
+        "test": "mocha -u tdd --timeout 999999 --colors lib/tests"
+    },
+    "devDependencies": {
+        "@types/es6-promise": "0.0.32",
+        "@types/mocha": "^2.2.39",
+        "@types/mongoose": "^4.7.5",
+        "@types/should": "^8.1.30",
+        "del": "^2.2.2",
+        "gulp": "^3.9.1",
+        "gulp-merge": "^0.1.1",
+        "gulp-typescript": "^3.1.3",
+        "gulp-uglify": "^2.0.1",
+        "mocha": "^3.2.0",
+        "mongodb": "^2.2.24",
+        "should": "^11.2.0"
+    },
+    "dependencies": {
+        "jdash-core": "^1.0.0",
+        "jdash-api-core": "^1.0.0",
+        "mongodb": "^2.2.24",
+        "mongoose": "^4.8.3"
+    },
+    "author": "Aibrite Inc.",
+    "license": "ISC"
+}
