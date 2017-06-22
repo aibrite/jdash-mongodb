@@ -1,6 +1,6 @@
 {
     "name": "jdash-mongodb",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "description": "JDash MongoDb provider",
     "main": "./lib/index.js",
     "types": "./lib/index.d.ts",
